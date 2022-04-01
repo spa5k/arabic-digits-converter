@@ -1,6 +1,6 @@
 {
   "name": "arabic-digits-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert numbers to their arabic counterpart and vice versa.",
   "keywords": [
     "cjs",

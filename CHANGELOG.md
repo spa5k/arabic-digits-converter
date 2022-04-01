@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/spa5k/arabic-digits-converter/compare/v1.0.1...v1.0.2) (2022-04-01)
+
+
+### Bug Fixes
+
+* **main:** 💚 fixing the tsup related build ([ebbbe7e](https://github.com/spa5k/arabic-digits-converter/commit/ebbbe7e3a14e7ee256dd9c31ad3b175a6d6112e6))
+
 ## [1.0.1](https://github.com/spa5k/arabic-digits-converter/compare/v1.0.0...v1.0.1) (2022-04-01)
 
 ### Bug Fixes
