@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/spa5k/arabic-digits-converter/compare/v1.0.0...v1.0.1) (2022-04-01)
+
+
+### Bug Fixes
+
+* **main:** 🐛 fixing export of main ([7fa5f3e](https://github.com/spa5k/arabic-digits-converter/commit/7fa5f3e984a9eab8ff6e2442fe1574eaaad237db))
+
 # 1.0.0 (2022-04-01)
 
 ### Features
