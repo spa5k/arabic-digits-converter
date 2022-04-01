@@ -1941,7 +1941,7 @@ __metadata:
     "@yarnpkg/esbuild-plugin-pnp": ^2.0.1
     commitizen: 4.2.4
     dotenv: 16.0.0
-    dprint: ^0.24.2
+    dprint: ^0.24.3
     esbuild: 0.14.29
     eslint: 8.12.0
     eslint-config-galex: 3.6.5
@@ -1951,16 +1951,16 @@ __metadata:
     eslint-plugin-jest-formatting: 3.1.0
     eslint-plugin-promise: 6.0.0
     eslint-plugin-sonarjs: 0.13.0
-    eslint-plugin-unicorn: 41.0.1
+    eslint-plugin-unicorn: 42.0.0
     husky: 7.0.4
     node-dev: 7.4.2
     pinst: 3.0.0
     semantic-release: 19.0.2
     tslib: 2.3.1
-    tsup: 5.12.1
+    tsup: 5.12.2
     typescript: 4.6.3
     vite: ^2.9.1
-    vitest: ^0.8.1
+    vitest: ^0.8.2
   languageName: unknown
   linkType: soft
 
@@ -3127,12 +3127,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dprint@npm:^0.24.2":
-  version: 0.24.2
-  resolution: "dprint@npm:0.24.2"
+"dprint@npm:^0.24.3":
+  version: 0.24.3
+  resolution: "dprint@npm:0.24.3"
   bin:
     dprint: bin.js
-  checksum: 3ceabf123c7e63db756b63d75b459df79542085cfb587695fbf7036e0afeda97770a2af486de15aae64572cd7d2578c70c1afe25529dbb19f4b4620349b94ab3
+  checksum: 76d2e93a760b3aa242e957d2c5af9d49395b571631a2c1a728b4662597edc61e716ddaaeb11234efec417da2582ad4b1efd8888ae3a38304bc0fc369d2629ff9
   languageName: node
   linkType: hard
 
@@ -3397,7 +3397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:0.14.29, esbuild@npm:^0.14.2, esbuild@npm:^0.14.27":
+"esbuild@npm:0.14.29, esbuild@npm:^0.14.25, esbuild@npm:^0.14.27":
   version: 0.14.29
   resolution: "esbuild@npm:0.14.29"
   dependencies:
@@ -3765,9 +3765,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:41.0.1":
-  version: 41.0.1
-  resolution: "eslint-plugin-unicorn@npm:41.0.1"
+"eslint-plugin-unicorn@npm:42.0.0":
+  version: 42.0.0
+  resolution: "eslint-plugin-unicorn@npm:42.0.0"
   dependencies:
     "@babel/helper-validator-identifier": ^7.15.7
     ci-info: ^3.3.0
@@ -3785,7 +3785,7 @@ __metadata:
     strip-indent: ^3.0.0
   peerDependencies:
     eslint: ">=8.8.0"
-  checksum: 90c9dd93b57ec2cdd650168364b4e2220e2c72c1ffc8ea43cd1be2dabadc7821ec5077656f44fa4622e284caa39ca497058e1dbe609f530d392bdb2da3d73b70
+  checksum: 03757cbf417d39691fe04048ac9352585162a4dd68c2f26f5bc0956409625c7c4841487f0fa623e0d6dd5ff9cc3e758b74e4d170e3b0a877bbd0114995310058
   languageName: node
   linkType: hard
 
@@ -8430,15 +8430,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:5.12.1":
-  version: 5.12.1
-  resolution: "tsup@npm:5.12.1"
+"tsup@npm:5.12.2":
+  version: 5.12.2
+  resolution: "tsup@npm:5.12.2"
   dependencies:
     bundle-require: ^3.0.2
     cac: ^6.7.12
     chokidar: ^3.5.1
     debug: ^4.3.1
-    esbuild: ^0.14.2
+    esbuild: ^0.14.25
     execa: ^5.0.0
     globby: ^11.0.3
     joycon: ^3.0.1
@@ -8456,7 +8456,7 @@ __metadata:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: 807cbc470d1d35573d1a2b535e548f5aa8cb20a638d49564e49a5616b1f035a0b637e20449d1e9ae9e18bdb93d52a388f53d6ff57d5e99963db5a45588da7a7e
+  checksum: 7f1eb88727f2d967783af91fc4d6a94c1b4ead0173becf4fdd0eb30857d340352e8b624ae5697233db63fddc25e70e72814c00c2e25494fd9dfba25dd45874cb
   languageName: node
   linkType: hard
 
@@ -8761,9 +8761,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:^0.8.1":
-  version: 0.8.1
-  resolution: "vitest@npm:0.8.1"
+"vitest@npm:^0.8.2":
+  version: 0.8.2
+  resolution: "vitest@npm:0.8.2"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
@@ -8788,7 +8788,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 6ae9c7ab102a5f44aa4abf28bf756e510b9249b82ea5d467118dabc5e3fe0f810a8bae483b29b3de6f9cc057745a03bb0ece56eb0148a288469b0a1840936a31
+  checksum: d5454454481b5147c9f4ec4db6612b01036bcc3b6712be0f3a0778073933e8dfb8bc2a382a88076ed2f2df8f10adc0e830391aaa7fe73da6c807de90b9cb6a84
   languageName: node
   linkType: hard
 
