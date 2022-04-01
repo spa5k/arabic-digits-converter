@@ -1961,6 +1961,9 @@ __metadata:
     typescript: 4.6.3
     vite: ^2.9.1
     vitest: ^0.8.2
+  dependenciesMeta:
+    tsup@5.12.2:
+      unplugged: true
   languageName: unknown
   linkType: soft
 

@@ -11,9 +11,8 @@ export const tsup: Options = {
   format: ["cjs", "esm"],
   minify: false,
   bundle: true,
+  watch: env === "development",
   skipNodeModulesBundle: true,
   entryPoints: ["src/index.ts"],
-  watch: env === "development",
   esbuildPlugins: [pnpPlugin()],
-  target: "node14",
 };

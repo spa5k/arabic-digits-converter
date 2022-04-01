@@ -1,10 +1,50 @@
 {
   "name": "arabic-digits-converter",
-  "description": "Convert numbers to their arabic counterpart and vice versa.",
   "version": "1.0.1",
-  "author": "spa5k <unbuttun@gmail.com>",
+  "description": "Convert numbers to their arabic counterpart and vice versa.",
+  "keywords": [
+    "cjs",
+    "dts",
+    "esbuild",
+    "esm",
+    "library",
+    "template",
+    "typescript"
+  ],
+  "homepage": "https://github.com/spa5k/arabic-digits-converter#readme",
   "bugs": {
     "url": "https://github.com/spa5k/arabic-digits-converter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spa5k/arabic-digits-converter.git"
+  },
+  "license": "MIT",
+  "author": "spa5k <unbuttun@gmail.com>",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "NODE_ENV='production' tsup-node",
+    "build:dev": "NODE_ENV='development' tsup-node",
+    "coverage": "vitest run --coverage",
+    "dev": "node-dev dist/main.js",
+    "format": "dprint fmt",
+    "postinstall": "husky install",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "semantic-release": "semantic-release",
+    "test": "vitest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm format && pnpm lint",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "commitlint": {
     "extends": [
@@ -49,45 +89,10 @@
     "vite": "^2.9.1",
     "vitest": "^0.8.2"
   },
-  "files": [
-    "dist"
-  ],
-  "homepage": "https://github.com/spa5k/arabic-digits-converter#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "pnpm format && pnpm lint",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "keywords": [
-    "cjs",
-    "dts",
-    "esbuild",
-    "esm",
-    "library",
-    "template",
-    "typescript"
-  ],
-  "license": "MIT",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "packageManager": "yarn@3.2.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/spa5k/arabic-digits-converter.git"
-  },
-  "scripts": {
-    "build": "NODE_ENV='production' tsup-node",
-    "build:dev": "NODE_ENV='development' tsup-node",
-    "dev": "node-dev dist/main.js",
-    "format": "dprint fmt",
-    "lint": "eslint src --ext .ts",
-    "semantic-release": "semantic-release",
-    "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
-  },
-  "typings": "dist/index.d.ts"
+  "dependenciesMeta": {
+    "tsup@5.12.2": {
+      "unplugged": true
+    }
+  }
 }
