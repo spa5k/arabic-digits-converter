@@ -1,7 +1,7 @@
 {
   "name": "arabic-digits-converter",
   "description": "Convert numbers to their arabic counterpart and vice versa.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "spa5k <unbuttun@gmail.com>",
   "bugs": {
     "url": "https://github.com/spa5k/arabic-digits-converter/issues"
