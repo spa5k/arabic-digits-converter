@@ -1,10 +1,10 @@
 {
-  "name": "esbuild-typescript-library-template",
-  "description": "Typescript Esbuild Library Template",
-  "version": "1.8.0",
+  "name": "arabic-digits-converter",
+  "description": "Convert numbers to their arabic counterpart and vice versa.",
+  "version": "0.0.0",
   "author": "spa5k <unbuttun@gmail.com>",
   "bugs": {
-    "url": "https://github.com/spa5k/esbuild-typescript-library-template/issues"
+    "url": "https://github.com/spa5k/arabic-digits-converter/issues"
   },
   "commitlint": {
     "extends": [
@@ -52,7 +52,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/spa5k/esbuild-typescript-library-template#readme",
+  "homepage": "https://github.com/spa5k/arabic-digits-converter#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pnpm format && pnpm lint",
@@ -74,7 +74,7 @@
   "packageManager": "yarn@3.2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spa5k/esbuild-typescript-library-template.git"
+    "url": "git+https://github.com/spa5k/arabic-digits-converter.git"
   },
   "scripts": {
     "build": "NODE_ENV='production' tsup-node",

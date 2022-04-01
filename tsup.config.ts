@@ -9,7 +9,7 @@ export const tsup: Options = {
   clean: true,
   dts: true,
   format: ["cjs", "esm"],
-  minify: env === "production",
+  minify: false,
   bundle: true,
   skipNodeModulesBundle: true,
   entryPoints: ["src/index.ts"],
